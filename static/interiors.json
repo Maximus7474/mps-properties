@@ -1,0 +1,45 @@
+{
+    "two_car_garage": {
+        "name": "2 Car Garage",
+        "type": "garage",
+        "entrance": {"x": 178.9670, "y": -1005.0325, "z": -99.0000},
+        "positions": [
+            [175.2652, -1003.7866, -99.4853, 180.0],
+            [171.6200, -1003.7008, -99.4855, 180.0]
+        ] 
+    },
+    "six_car_garage": {
+        "name": "6 Car Garage",
+        "type": "garage",
+        "entrance": {"x": 207.5417, "y": -998.9009, "z": -99.0000},
+        "positions": [
+            [204.3239, -1005.0027, -99.4833, 135.0],
+            [203.6856, -1001.2383, -99.4856, 135.0],
+            [202.4359, -997.8589, -99.4856, 135.0],
+            [193.9055, -1003.9041, -99.4833, 225.0],
+            [194.5967, -1000.3276, -99.4855, 225.0],
+            [195.1736, -996.7878, -99.4866, 225.0]
+        ] 
+    },
+    "ten_car_garage": {
+        "name": "10 Car Garage",
+        "type": "garage",
+        "entrance": {"x": 238.5318, "y": -1004.7949, "z": -99.0000}
+    },
+    "low_end_apartment": {
+        "name": "Low End Apartment",
+        "type": "house",
+        "entrance": {"x": 265.8648, "y": -1007.2563, "z": -101.0085}
+    },
+    "medium_end_apartment": {
+        "name": "Medium End Apartment",
+        "type": "house",
+        "entrance": {"x": 346.4925, "y": -1012.6828, "z": -99.1963}
+    },
+    "eclipse_towers_apartment_three": {
+        "name": "Apartment 3",
+        "type": "apartment",
+        "building": "eclipse_towers",
+        "entrance": {"x": -785.2195, "y": 323.5402, "z": 211.9973}
+    }
+}

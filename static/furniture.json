@@ -1,0 +1,25 @@
+{
+    "storage": [
+        {"model": "ex_prop_crate_closed_bc", "label": "Crate", "type": "storage", "config": {"slots": 50, "weight": 100000, "lockable": false, "individual": false},"price": 500},
+        {"model": "ch_prop_ch_service_locker_01a", "label": "Lockers", "type": "storage", "config": {"slots": 10, "weight": 10000, "lockable": false, "individual": true}, "price": 500},
+        {"model": "m23_2_prop_m32_safe_01a", "label": "Safe", "type": "storage", "config": {"slots": 20, "weight": 10000, "lockable": true, "individual": false}, "price": 5000}
+    ],
+    "kitchen": [
+        {"model": "v_res_fridgemodsml", "label": "Small Fridge", "type": "storage", "config": {"slots": 50, "weight": 100000, "lockable": false, "individual": false}, "price": 500},
+        {"model": "prop_bar_fridge_03", "label": "Mini Bar", "type": "storage", "config": {"slots": 5, "weight": 1000, "lockable": false, "individual": false}, "price": 500},
+        {"model": "prop_pizza_oven_01", "label": "Pizza Oven","type": "decoration", "price": 5000}
+    ],
+    "bedroom": [
+        {"model": "gr_prop_gr_campbed_01", "label": "Camp Bed", "type": "bed", "price": 100},
+        {"model": "v_res_mdbedtable", "label": "Bedside Table", "type": "decoration", "price": 100}
+    ],
+    "office": [
+        {"model": "dt1_05_deskseta_iref001", "label": "Office Desk", "type": "decoration", "price": 5000},
+        {"model": "prop_off_chair_04", "label": "Office Chair", "type": "decoration", "price": 5000}
+    ],
+    "living room": [
+        {"model": "tr_int1_mod_armchair_05", "label": "Arm Chair", "type": "decoration", "price": 5000},
+        {"model": "v_res_mbdresser", "label": "Dresser", "type": "decoration", "price": 5000},
+        {"model": "xm_prop_x17_tv_flat_01", "label": "Flat Television", "type": "decoration", "price": 5000}
+    ]
+}
