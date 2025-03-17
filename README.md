@@ -15,6 +15,11 @@ set properties:startingBucket 100
 set properties:bucketGaps 1
 ```
 
+## Requirements
+- ox_core
+- ox_target (to enter the properties)
+- oxmysql
+
 ## Getting Started
 
 ### Node.js v18+
