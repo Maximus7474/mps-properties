@@ -1,7 +1,7 @@
 # astrum-properties
 
 ## ToDo:
-- [] rework property entrance system:
+- Rework property entrance system:
   1. Check entrance:
     - Client -> Server CB: Checks if has access or not, if yes: return interior data, if no: add to doorbell pool and notify players inside
   2. Load IPL *or* Spawn shell (client side) from the received data:
