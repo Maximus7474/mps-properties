@@ -90,7 +90,7 @@ export class Property implements IProperty {
                 ];
         
                 if (this.type === 'garage') options.push({
-                    label: 'Garer votre véhicule',
+                    label: 'Park your vehicle',
                     icon: 'fa-solid fa-car-side',
                     onSelect: this.parkVehicle.bind(this),
                     canInteract: () => {
@@ -136,7 +136,7 @@ export class Property implements IProperty {
         if (typeof interiorData !== 'object') return;
         if (!interiorData) return notify({
             title: "Impossible",
-            description: "La maison semble pas occupé",
+            description: "The house doesn't seem occupied",
             type: 'inform'
         });
 
@@ -220,7 +220,7 @@ export class Property implements IProperty {
         await sleep(250);
         DoScreenFadeIn(250);
         if (!hasEntered) return notify({
-            description: 'L\'entrée est pas possible',
+            description: 'Unable to enter',
             type: 'error'
         });
 
@@ -236,7 +236,7 @@ export class Property implements IProperty {
             radius: 2,
             options: [
                 {
-                    label: `Sortir du ${this.type === "garage" ? "Garage" : "la Propriété"}`,
+                    label: `Leave the ${this.type === "garage" ? "Garage" : "Property"}`,
                     icon: this.type === "garage" ? "fa-solid fa-warehouse" : "fa-solid fa-house",
                     onSelect: this.exitProperty.bind(this)
                 }

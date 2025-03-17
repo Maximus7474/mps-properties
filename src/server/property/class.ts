@@ -149,8 +149,8 @@ export class Property implements IProperty {
         
         console.log(`Player ${source} rang the doorbell at property ${this.houseNumber}.`);
         emitNet('ox_lib:notify', source, {
-            title: 'Sonnete',
-            description: `Vous avez sonné à la propriété #${this.id}`,
+            title: 'Doorbell',
+            description: `You just rang the doorbell at #${this.id}`,
             type: 'info'
         })
         return 1;

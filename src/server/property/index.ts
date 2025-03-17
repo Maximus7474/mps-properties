@@ -99,7 +99,7 @@ onClientCallback('properties:storeVehicle', (playerSrc: number, houseNumber: num
         // DeleteEntity(NetworkGetEntityFromNetworkId(vehNetId));
 
         /* For now just refuse parking of it */
-        emitNet('ox_lib:notify', playerSrc, {title: 'Impossible', description: 'Ce véhicule ne t\'appartiens pas.', type: 'error'});
+        emitNet('ox_lib:notify', playerSrc, {title: 'Impossible', description: 'This vehicle doesn\'t beloing to you.', type: 'error'});
 
     } else {
         vehicle.setProperties(vehProps);
@@ -120,7 +120,7 @@ onNet('properties:leaveGarageWithVehicle', async (houseId: number, vehicleId: nu
 
     const vehicle: OxVehicle = await SpawnVehicle(vehicleId, {x, y, z}, location.w);
 
-    if (!vehicle) return emitNet('ox_lib:notify', playerSrc, {title: 'Impossible', description: 'Le véhicule n\'as pas pu être sorti.', type: 'error'});
+    if (!vehicle) return emitNet('ox_lib:notify', playerSrc, {title: 'Impossible', description: 'The vehicle couldn\'t be retrieved.', type: 'error'});
     
     const ped: number = GetPlayerPed(playerSrc.toString());
 

@@ -1,4 +1,4 @@
-import { Ox } from '@overextended/ox_core/server';
+// import { Ox } from '@overextended/ox_core/server';
 import './property/index';
 import { DEBUG } from '@common/config';
 
@@ -17,9 +17,9 @@ if (DEBUG) {
 // Just leavin it here in case whatever
 // Ox.CreateGroup({
 //     name: 'dynasty',
-//     label: 'Dynasty 8 Immobillier',
+//     label: 'Dynasty 8',
 //     grades: [
-//         {label: 'Recrue'}, {label: 'Consultant', accountRole: 'viewer'}, {label: 'Comptable', accountRole: 'contributor'}, {label: 'PDG', accountRole: 'manager'}
+//         {label: 'Recruit'}, {label: 'Consultant', accountRole: 'viewer'}, {label: 'Comptable', accountRole: 'contributor'}, {label: 'PDG', accountRole: 'manager'}
 //     ],
 //     type: 'job',
 //     hasAccount: true
